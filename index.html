@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEST</title>
+    <link rel="stylesheet" href="assets/css/theme.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="interviewer-form">
+
+            <div class="progress-bar hidden" id="progressBar">
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+                <div class="progress"></div>
+            </div>
+
+            <div class="form-start" id="beginForm">
+                <div class="title">A short 6-question survey.</div>
+                <div class="subtitle">Take our short 6-question survey so we can match you with the right jobs in your area.</div>
+
+                <div class="image-container">
+                    <img src="assets/images/illustration.svg" class="img-responsive" alt="" />
+                </div>
+
+                <div class="proggress-button" onclick="startInterview()">Next</div>
+            </div>
+
+            <!-- Место для вопросов и ответов -->
+            <div id="question" class="question"></div>
+            <div id="answers" class="answers"></div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
